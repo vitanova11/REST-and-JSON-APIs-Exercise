@@ -1,5 +1,5 @@
 # REST-and-JSON-APIs-Exercise
-Part Zero: Set Up
+# Part Zero: Set Up
 Make a virtual environment and install the dependencies.
 
 Make your project a Git repo.
