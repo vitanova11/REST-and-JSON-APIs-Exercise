@@ -1,10 +1,10 @@
 # REST-and-JSON-APIs-Exercise
-# Part Zero: Set Up
+PART ZERO: Set Up
 Make a virtual environment and install the dependencies.
 
 Make your project a Git repo.
 
-Part One: Cupcake Model
+PART ONE: Cupcake Model
 Create Cupcake model in models.py.
 
 It should have the following columns:
@@ -18,7 +18,7 @@ Make a database called cupcakes.
 
 Once you’ve made this, you can run our seed.py file to add a few sample cupcakes to your database.
 
-Part Two: Listing, Getting & Creating Cupcakes
+PART TWO: Listing, Getting & Creating Cupcakes
 Make routes for the following:
 
 GET /api/cupcakes
@@ -48,7 +48,7 @@ You can run our tests like:
 
 (venv) $ python -m unittest -v tests
 
-Part Three: Update & Delete Cupcakes
+PART THREE: Update & Delete Cupcakes
 Make routes for the following:
 
 PATCH /api/cupcakes/[cupcake-id]
@@ -65,10 +65,10 @@ Delete cupcake with the id passed in the URL. Respond with JSON like {message: "
 
 Test these routes in Insomnia.
 
-Part Four: Write More Tests
+PART FOUR: Write More Tests
 Add tests for the PATCH and DELETE routes.
 
-Part Five: Start on the frontend
+PART FIVE: Start on the frontend
 Make this route:
 
 GET /
@@ -80,7 +80,7 @@ queries the API to get the cupcakes and adds to the page
 handles form submission to both let the API know about the new cupcake and updates the list on the page to show it
 (You do not need to use WTForms to make this form; this is a possibility in the further study.)
 
-Further Study
+FURTHER STUDY
 Add tests to make sure that the GET/PATCH/DELETE routes return a 404 when the cupcake cannot be found.
 
 Add functionality for searching for cupcakes where you can type in a search term, submit to the backend and see a newly filtered list of cupcakes.
